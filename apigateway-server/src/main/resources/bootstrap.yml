@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: @project.artifactId@
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8888
